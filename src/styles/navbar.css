@@ -16,3 +16,13 @@
 .navbar-scrolled .fa-bars {
   color: #7f4722;
 }
+
+@media (min-width: 992px) {
+  nav {
+    height: 45px;
+  }
+  #navbarsExample07 {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
